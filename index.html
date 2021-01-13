@@ -17,19 +17,64 @@
     <title>Bia's Portfolio</title>
   </head>
   <body>
-    <div class="navbar">
-      <h5>Beatriz Cançado</h5>
-      <h6>About me</h6>
-      <h6>Projects</h6>
-      <h6>Contact</h6>
+    <nav class="navbar navbar-expand-md bg-light navbar-light fixed-top">
+  <!-- Brand -->
+  <a class="navbar-brand" href="#">Beatriz Cançado</a>
 
+  <!-- Toggler/collapsibe Button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Navbar links -->
+  <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">About me</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+    
+    <div class="container">
+      <h1>Hello world, I'm Bia!</h1>
+      <h4>About me</h4>
+      <p>The goal of my life is to eat every kind of food of the world.</p>
+      <h4>Projects</h4>
+      <h4>Talk to me</h4>
+      <div class="social">
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/biacaram" target="_blank"
+              ><i class="fab fa-facebook-square"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/biacaram" target="_blank"
+              ><i class="fab fa-twitter-square"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://github.com/biacaram" target="_blank"
+              ><i class="fab fa-github-square"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/biacaram/" target="_blank"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
     </div>
-    <h1>Hello world, I'm Bia!</h1>
-    <h4>About me</h4>
-    <p>The goal of my life is to eat every kind of food of the world.</p>
-    <h4>Projects</h4>
-    <h4>Talk to me</h4>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"
       integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf"

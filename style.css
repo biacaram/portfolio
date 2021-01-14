@@ -38,6 +38,9 @@ body {
   opacity: 0.9;
   filter: grayscale(0%);
   transition: 0.5s;
+  box-shadow: #000000ef 0px 5px 15px;
+  width: 96%;
+  height: 100%;
 }
 
 .projects ul {
@@ -45,4 +48,5 @@ body {
   list-style: none;
   display: grid;
   grid-template-columns: 50% 50%;
+  row-gap: 25px;
 }

@@ -75,3 +75,56 @@ body {
   padding: 60px 0px;
   color: #858e95;
 }
+
+.contacts h4 {
+  padding: 60px 0px;
+  color: #858e95;
+}
+
+.contacts ul {
+  list-style: none;
+  display: flex;
+}
+
+span a {
+	position: relative;
+	display: inline-block;
+	outline: none;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;
+	text-shadow: 0 0 1px rgba(255,255,255,0.3);
+	font-size: 1em;
+}
+
+span a:hover,
+span a:focus {
+	outline: none;
+}
+
+.cl-effect-11 a {
+	color: #0972b4;
+	text-shadow: none;
+} 
+
+.cl-effect-11 a::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	max-width: 0;
+	border-bottom: 2px solid #fff;
+	color: #000;
+	content: attr(data-hover);
+	-webkit-transition: max-width 0.5s;
+	-moz-transition: max-width 0.5s;
+	transition: max-width 0.5s;
+	white-space: nowrap;
+}
+
+.cl-effect-11 a:hover::before,
+.cl-effect-11 a:focus::before {
+	max-width: 100%;
+}

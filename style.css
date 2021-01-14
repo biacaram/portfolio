@@ -5,7 +5,7 @@ body {
 
 .aboutme {
   display: flex;
-  
+  min-width: 675px;
 }
 
 .about-text {
@@ -16,4 +16,8 @@ body {
   justify-content: center;
   width: 60%;
   text-align: justify;
+}
+
+.projects {
+  margin-top: 30px;
 }

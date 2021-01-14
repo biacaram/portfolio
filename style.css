@@ -4,8 +4,9 @@ body {
 }
 
 .aboutme {
-  margin-top: 50px;
+  margin-top: 80px;
   display: flex;
+  justify-content: center;
   min-width: 675px;
 }
 
@@ -21,10 +22,24 @@ body {
 
 .about-text h2 {
   margin-bottom: 40px;
+  color: #858e95;
+}
+
+.about-text p {
+  font-size: 17px;
+  color: #8b939b;
 }
 
 .projects {
   margin-top: 100px;
+  min-width: 1100px;
+  border-top: #ececec 3px solid;
+}
+
+.projects h4 {
+  width: 100%;
+  margin: 30px 0px;
+  color: #858e95;
 }
 
 .projects img {
@@ -39,8 +54,6 @@ body {
   filter: grayscale(0%);
   transition: 0.5s;
   box-shadow: #000000ef 0px 5px 15px;
-  width: 96%;
-  height: 100%;
 }
 
 .projects ul {

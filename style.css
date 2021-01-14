@@ -32,6 +32,7 @@ body {
 
 .projects {
   margin-top: 100px;
+  padding-bottom:100px;
   min-width: 1100px;
   border-top: #ececec 3px solid;
   border-bottom: #ececec 3px solid;
@@ -41,6 +42,7 @@ body {
   width: 100%;
   margin: 30px 0px;
   color: #858e95;
+  padding: 30px 0px;
 }
 
 .projects img {
@@ -63,4 +65,13 @@ body {
   display: grid;
   grid-template-columns: 50% 50%;
   row-gap: 25px;
+}
+
+.skils {
+  border-bottom: #ececec 3px solid;
+}
+
+.skils h4 {
+  padding: 60px 0px;
+  color: #858e95;
 }

@@ -4,7 +4,7 @@ body {
 }
 
 .navbar {
-	background-color: #eaf5f0 !important;
+	background-color: #eaf5f0f3 !important;
 }
 
 .aboutme {
@@ -175,7 +175,6 @@ span a {
 	outline: none;
 	color: #fff;
 	text-decoration: none;
-	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-weight: 400;
 	text-shadow: 0 0 1px rgba(255,255,255,0.3);
@@ -191,7 +190,7 @@ span a:focus {
 .cl-effect-11 a {
 	color: #727981;
   text-shadow: none;
-  background-color: #ffdbdbaf;
+  background-color: #ffdbdba1;
 } 
 
 .cl-effect-11 a::before {
@@ -203,9 +202,9 @@ span a:focus {
 	border-bottom: 2px solid #fff;
   color: #FD1015;
 	content: attr(data-hover);
-	-webkit-transition: max-width 0.5s;
-	-moz-transition: max-width 0.5s;
-	transition: max-width 0.5s;
+	-webkit-transition: max-width 0.7s;
+	-moz-transition: max-width 0.7s;
+	transition: max-width 0.7s;
 	white-space: nowrap;
 }
 

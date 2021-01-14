@@ -4,8 +4,10 @@ body {
 }
 
 .aboutme {
+  margin-top: 80px;
   display: flex;
-  
+  justify-content: center;
+  min-width: 675px;
 }
 
 .about-text {
@@ -16,4 +18,48 @@ body {
   justify-content: center;
   width: 60%;
   text-align: justify;
+}
+
+.about-text h2 {
+  margin-bottom: 40px;
+  color: #858e95;
+}
+
+.about-text p {
+  font-size: 17px;
+  color: #8b939b;
+}
+
+.projects {
+  margin-top: 100px;
+  min-width: 1100px;
+  border-top: #ececec 3px solid;
+}
+
+.projects h4 {
+  width: 100%;
+  margin: 30px 0px;
+  color: #858e95;
+}
+
+.projects img {
+  opacity: 0.7;
+  filter: grayscale(60%);
+  border: 1px solid #dddddd;
+  box-shadow: #00000059 0px 5px 15px;
+}
+
+.projects img:hover {
+  opacity: 0.9;
+  filter: grayscale(0%);
+  transition: 0.5s;
+  box-shadow: #000000ef 0px 5px 15px;
+}
+
+.projects ul {
+  padding: 0px;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  row-gap: 25px;
 }

@@ -101,12 +101,15 @@ span a {
 
 span a:hover,
 span a:focus {
-	outline: none;
+  outline: none;
+  text-decoration: none;
 }
 
 .cl-effect-11 a {
-	color: #0972b4;
-	text-shadow: none;
+	color: #727981;
+  text-shadow: none;
+  font-style: italic;
+  background-color: #ffdbdb;
 } 
 
 .cl-effect-11 a::before {
@@ -114,9 +117,9 @@ span a:focus {
 	top: 0;
 	left: 0;
 	overflow: hidden;
-	max-width: 0;
+  max-width: 0;
 	border-bottom: 2px solid #fff;
-	color: #000;
+	color: #FD1015;
 	content: attr(data-hover);
 	-webkit-transition: max-width 0.5s;
 	-moz-transition: max-width 0.5s;

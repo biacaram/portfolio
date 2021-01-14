@@ -15,6 +15,7 @@
     />
     <link rel="stylesheet" href="style.css" />
     <title>Bia's Portfolio</title>
+    
   </head>
   <body>
     <nav class="navbar navbar-expand-md bg-light navbar-light fixed-top">
@@ -33,15 +34,18 @@
 
       <!-- Navbar links -->
       <div
-        class="collapse navbar-collapse justify-content-end"
+        class="collapse navbar-collapse justify-content-end cl-effect-14"
         id="collapsibleNavbar"
       >
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="#">Projects</a>
+            <a href="#projects">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a href="#skils">Skils</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contacts">Contact</a>
           </li>
         </ul>
       </div>
@@ -64,14 +68,16 @@
             should seek out new challenges. As I have always loved technology
             and computer programming, I decided that it was a great moment to
             launch myself in this market so, in 2020, I made the
-            <a href="https://www.lewagon.com/" target="_blank">Le Wagon's</a>
+            <span class="cl-effect-11">
+              <a href="https://www.lewagon.com/" target="_blank" data-hover="Le Wagon's">Le Wagon's</a>
+            </span>
             coding bootcamp and I am very excited about the world of
             possibilities that the acquired knowledge has opened up for me.
           </p>
         </div>
       </div>
-      <div class="projects">
-        <h4>And these are some of my precious projects :)</h4>
+      <div class="projects" id="projects">
+        <h4>These are some of my precious projects :)</h4>
         <ul>
           <li class="bora">
             <a href="https://bora.website/" target="_blank">
@@ -96,7 +102,11 @@
           </li>
         </ul>
       </div>
-      <div class="contacts">
+      <div class="skils" id="skils">
+        <h4>Languages, skils & tools</h4>
+        <p>carrossel de bolinhas</p>
+      </div>
+      <div class="contacts" id="contacts">
         <h4>Talk to me</h4>
         <div class="social">
           <ul>
@@ -124,6 +134,7 @@
         </div>
       </div>
     </div>
+    <script src="js/modernizr.custom.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script

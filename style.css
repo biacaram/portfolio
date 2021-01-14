@@ -32,20 +32,23 @@ body {
 
 .projects {
   margin-top: 100px;
+  padding-bottom:100px;
   min-width: 1100px;
-  border-top: #ececec 3px solid;
+  border-top: #f5b2aebe 3px solid;
+  border-bottom: #f5b2aebe 3px solid;
 }
 
 .projects h4 {
   width: 100%;
   margin: 30px 0px;
   color: #858e95;
+  padding: 30px 0px;
 }
 
 .projects img {
   opacity: 0.7;
   filter: grayscale(60%);
-  border: 1px solid #dddddd;
+  border: 2px solid #ec524b;
   box-shadow: #00000059 0px 5px 15px;
 }
 
@@ -62,4 +65,148 @@ body {
   display: grid;
   grid-template-columns: 50% 50%;
   row-gap: 25px;
+}
+
+.skils {
+  border-bottom: #f5b2aebe 3px solid;
+}
+
+.skils h4 {
+  padding: 60px 0px;
+  color: #858e95;
+}
+
+.contacts h4 {
+  padding: 60px 0px;
+  color: #858e95;
+}
+
+.contacts ul {
+  list-style: none;
+  display: flex;
+}
+
+span a {
+	position: relative;
+	display: inline-block;
+	outline: none;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;
+	text-shadow: 0 0 1px rgba(255,255,255,0.3);
+	font-size: 1em;
+}
+
+span a:hover,
+span a:focus {
+  outline: none;
+  text-decoration: none;
+}
+
+.cl-effect-11 a {
+	color: #727981;
+  text-shadow: none;
+  background-color: #ffdbdbaf;
+} 
+
+.cl-effect-11 a::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+  max-width: 0;
+	border-bottom: 2px solid #fff;
+  color: #FD1015;
+	content: attr(data-hover);
+	-webkit-transition: max-width 0.5s;
+	-moz-transition: max-width 0.5s;
+	transition: max-width 0.5s;
+	white-space: nowrap;
+}
+
+.cl-effect-11 a:hover::before,
+.cl-effect-11 a:focus::before {
+	max-width: 100%;
+}
+
+.cl-effect-14 a:hover,
+.cl-effect-14 a:focus {
+	outline: none;
+}
+
+.cl-effect-14 a {
+  position: relative;
+	display: inline-block;
+	margin: 0px 15px;
+	outline: none;
+	color: #858E95;
+	text-decoration: none;
+	letter-spacing: 1px;
+	font-weight: 400;
+	text-shadow: 0 0 1px #ffffff4d;
+	font-size: 1em;
+	padding: 0 20px;
+	height: 45px;
+	line-height: 45px;
+}
+
+.cl-effect-14 a::before,
+.cl-effect-14 a::after {
+	position: absolute;
+	width: 45px;
+	height: 2px;
+	background: #858E95;
+	content: '';
+	opacity: 0.2;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	pointer-events: none;
+}
+
+.cl-effect-14 a::before {
+	top: 0;
+	left: 0;
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	transform: rotate(90deg);
+	-webkit-transform-origin: 0 0;
+	-moz-transform-origin: 0 0;
+	transform-origin: 0 0;
+}
+
+.cl-effect-14 a::after {
+	right: 0;
+	bottom: 0;
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	transform: rotate(90deg);
+	-webkit-transform-origin: 100% 0;
+	-moz-transform-origin: 100% 0;
+	transform-origin: 100% 0;
+}
+
+.cl-effect-14 a:hover::before,
+.cl-effect-14 a:hover::after,
+.cl-effect-14 a:focus::before,
+.cl-effect-14 a:focus::after {
+	opacity: 1;
+}
+
+.cl-effect-14 a:hover::before,
+.cl-effect-14 a:focus::before {
+	left: 50%;
+	-webkit-transform: rotate(0deg) translateX(-50%);
+	-moz-transform: rotate(0deg) translateX(-50%);
+	transform: rotate(0deg) translateX(-50%);
+}
+
+.cl-effect-14 a:hover::after,
+.cl-effect-14 a:focus::after {
+	right: 50%;
+	-webkit-transform: rotate(0deg) translateX(50%);
+	-moz-transform: rotate(0deg) translateX(50%);
+	transform: rotate(0deg) translateX(50%);
 }

@@ -4,6 +4,7 @@ body {
 }
 
 .aboutme {
+  margin-top: 50px;
   display: flex;
   min-width: 675px;
 }
@@ -18,6 +19,22 @@ body {
   text-align: justify;
 }
 
-.projects {
-  margin-top: 30px;
+.about-text h2 {
+  margin-bottom: 40px;
 }
+
+.projects {
+  margin-top: 100px;
+}
+
+.projects img {
+  opacity: 0.7;
+  filter: grayscale(100%);
+}
+
+.projects img:hover {
+  opacity: 1;
+  filter: grayscale(0%);
+  transition: 0.7s;
+}
+

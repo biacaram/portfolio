@@ -3,6 +3,10 @@ body {
   padding: 20px;
 }
 
+.navbar {
+	background-color: #eaf5f0 !important;
+}
+
 .aboutme {
   margin-top: 80px;
   display: flex;
@@ -139,6 +143,11 @@ body {
 	position: absolute;
 	bottom: 20px;
 	right: 20px;
+}
+
+.cs-style-6 figcaption a:hover {
+	text-decoration: none;
+	background-color: #df254a;
 }
 
 .skils {

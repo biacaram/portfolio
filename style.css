@@ -3,6 +3,10 @@ body {
   padding: 20px;
 }
 
+.navbar {
+	background-color: #eaf5f0 !important;
+}
+
 .aboutme {
   margin-top: 80px;
   display: flex;
@@ -46,16 +50,11 @@ body {
 }
 
 .projects img {
-  opacity: 0.7;
-  filter: grayscale(60%);
-  border: 2px solid #ec524b;
   box-shadow: #00000059 0px 5px 15px;
 }
 
 .projects img:hover {
   opacity: 0.9;
-  filter: grayscale(0%);
-  transition: 0.5s;
   box-shadow: #000000ef 0px 5px 15px;
 }
 
@@ -65,6 +64,90 @@ body {
   display: grid;
   grid-template-columns: 50% 50%;
   row-gap: 25px;
+}
+
+.grid {
+	margin: 0 auto;
+	list-style: none;
+	text-align: center;
+}
+
+.grid li {
+	display: inline-block;
+	width: 550px;
+	margin: 0;
+	padding: 20px;
+	text-align: left;
+	position: relative;
+}
+
+.grid figure {
+  margin: 0;
+	position: relative;
+}
+
+.grid img {
+  max-width: 100%;
+  display: block;
+  position: relative;
+}
+
+.grid figcaption {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 20px;
+	background: #9ad3bc5b;
+	color: #ed4e6e;
+}
+
+.grid figcaption h3 {
+	margin: 0;
+	padding: 0;
+	color: #666666;
+}
+
+.grid figcaption span:before {
+	content: '';
+}
+
+.grid figcaption a {
+	text-align: center;
+	padding: 5px 10px;
+	border-radius: 2px;
+	display: inline-block;
+	background: #ed4e6e;
+	color: #fff;
+}
+
+.cs-style-6 figure img {
+	z-index: 10;
+	transition: 0.4s;
+}
+
+.no-touch .cs-style-6 figure:hover img,
+.cs-style-6 figure.cs-hover img {
+	transform: translateY(-50px) scale(0.55);
+}
+
+.cs-style-6 figcaption {
+	height: 100%;
+	width: 100%;
+}
+
+.cs-style-6 figcaption h3 {
+	margin-top: 40%;
+}
+
+.cs-style-6 figcaption a {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+}
+
+.cs-style-6 figcaption a:hover {
+	text-decoration: none;
+	background-color: #df254a;
 }
 
 .skils {

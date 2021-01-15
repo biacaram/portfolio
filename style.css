@@ -190,7 +190,8 @@ span a:focus {
 	overflow: hidden;
   max-width: 0;
 	border-bottom: 2px solid #fff;
-  color: #FD1015;
+	color: #FD1015;
+	font-weight: bold;
 	content: attr(data-hover);
 	-webkit-transition: max-width 0.7s;
 	-moz-transition: max-width 0.7s;

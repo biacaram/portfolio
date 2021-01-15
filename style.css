@@ -1,6 +1,6 @@
 body {
   margin: 60px;
-  padding: 20px;
+	padding: 20px;
 }
 
 .navbar {
@@ -12,6 +12,10 @@ body {
   display: flex;
   justify-content: center;
   min-width: 675px;
+}
+
+.aboutme img {
+	opacity: 0.95;
 }
 
 .about-text {
@@ -98,7 +102,7 @@ body {
 	left: 0;
 	padding: 20px;
 	background: #9ad3bc5b;
-	color: #ed4e6e;
+	color: #666666;
 }
 
 .grid figcaption h3 {
@@ -117,7 +121,7 @@ body {
 	border-radius: 2px;
 	display: inline-block;
 	background: #ed4e6e;
-	color: #fff;
+	color: #fff2f2;
 }
 
 .cs-style-6 figure img {
@@ -148,15 +152,8 @@ body {
 .cs-style-6 figcaption a:hover {
 	text-decoration: none;
 	background-color: #df254a;
-}
-
-.skils {
-  border-bottom: #f5b2aebe 3px solid;
-}
-
-.skils h4 {
-  padding: 60px 0px;
-  color: #858e95;
+	transition: 0.5s;
+	color: #fff;
 }
 
 .contacts h4 {
@@ -291,4 +288,104 @@ span a:focus {
 	-webkit-transform: rotate(0deg) translateX(50%);
 	-moz-transform: rotate(0deg) translateX(50%);
 	transform: rotate(0deg) translateX(50%);
+}
+
+.skils {
+  border-bottom: #f5b2aebe 3px solid;
+}
+
+.skils h4 {
+  padding: 60px 0px;
+	color: #858e95;
+}
+
+.items {
+	position: relative;
+	margin-top: 100px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+	user-select: none;
+	min-height: 250px;
+}
+
+.items .item {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  overflow: hidden;
+  transition: all 300ms ease-in-out;
+  z-index: -1;
+  opacity: 0;
+}
+
+.item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.item.active {
+  opacity: 1;
+  z-index: 99;
+  box-shadow: 0px 0px 100px -35px rgba(0, 0, 0, 0.75);
+}
+
+.item.prev {
+  z-index: 2;
+  opacity: 0.25;
+  transform: translate(-125%, -50%);
+}
+
+.item.next {
+  z-index: 2;
+  opacity: 0.25;
+  transform: translate(25%, -50%);
+}
+
+.items .button-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 275px;
+  z-index: 100;
+}
+
+.button-container .button {
+  color: #fff;
+  font-size: 32px;
+  cursor: pointer;
+  position: relative;
+  opacity: 0.75;
+  transition: all 300ms ease-in-out;
+}
+
+.button-container .button:hover {
+  opacity: 1;
+}
+
+.button-container .button:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 1);
+  border-radius: 50%;
+  z-index: -99;
+}
+
+.button-container .button:nth-child(1) {
+  float: left;
+}
+
+.button-container .button:nth-child(2) {
+  float: right;
 }

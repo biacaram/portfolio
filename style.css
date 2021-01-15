@@ -1,6 +1,6 @@
 body {
   margin: 60px;
-  padding: 20px;
+	padding: 20px;
 }
 
 .navbar {
@@ -12,6 +12,10 @@ body {
   display: flex;
   justify-content: center;
   min-width: 675px;
+}
+
+.aboutme img {
+	opacity: 0.95;
 }
 
 .about-text {
@@ -98,7 +102,7 @@ body {
 	left: 0;
 	padding: 20px;
 	background: #9ad3bc5b;
-	color: #ed4e6e;
+	color: #666666;
 }
 
 .grid figcaption h3 {
@@ -117,7 +121,7 @@ body {
 	border-radius: 2px;
 	display: inline-block;
 	background: #ed4e6e;
-	color: #fff;
+	color: #fff2f2;
 }
 
 .cs-style-6 figure img {
@@ -148,15 +152,8 @@ body {
 .cs-style-6 figcaption a:hover {
 	text-decoration: none;
 	background-color: #df254a;
-}
-
-.skils {
-  border-bottom: #f5b2aebe 3px solid;
-}
-
-.skils h4 {
-  padding: 60px 0px;
-  color: #858e95;
+	transition: 0.5s;
+	color: #fff;
 }
 
 .contacts h4 {
@@ -291,4 +288,13 @@ span a:focus {
 	-webkit-transform: rotate(0deg) translateX(50%);
 	-moz-transform: rotate(0deg) translateX(50%);
 	transform: rotate(0deg) translateX(50%);
+}
+
+.skils {
+  border-bottom: #f5b2aebe 3px solid;
+}
+
+.skils h4 {
+  padding: 60px 0px;
+	color: #858e95;
 }

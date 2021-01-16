@@ -35,7 +35,7 @@ body {
 }
 
 .about-text h2 {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 	color: #858e95;
 }
 
@@ -402,6 +402,7 @@ span a:focus {
 	width: fit-content;
 	color: #858585;
 	font-size: 50px;
+	font-family: sans-serif;
 	position: relative;
 	padding: 0px 15px;
 	margin: 20px;

@@ -325,7 +325,7 @@ span a:focus {
   text-align: center;
   color: #FFF;
   opacity: 0.95;
-  border-radius: 50%;
+  border-radius: 15px;
 }
 
 .a {
@@ -393,11 +393,11 @@ span a:focus {
 	color: #7575755e;
 	font-size: 50px;
 	position: relative;
-	padding: 0px 20px;
+	padding: 0px 15px;
 	margin: 20px;
   cursor: pointer;
   background: #EBF5F1;
-	border-radius: 5px;
+	border-radius: 50%;
 	border: 1.5px solid #EBF5F1;
   box-shadow: #0e1e251f 0px 2px 4px 0px, #0e1e2552 0px 2px 16px 0px;
 	transition: box-shadow 0.1s, top 0.1s;

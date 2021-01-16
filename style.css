@@ -32,7 +32,7 @@ body {
 
 .about-text h2 {
   margin-bottom: 40px;
-  color: #858e95;
+	color: #858e95;
 }
 
 .about-text p {
@@ -325,12 +325,18 @@ span a:focus {
   text-align: center;
   color: #FFF;
   opacity: 0.95;
-  border-radius: 15px;
+	border-radius: 15px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.item:nth-child(1), .item:nth-child(8), .item:nth-child(5),
+.item:nth-child(7), .item:nth-child(9), .item:nth-child(12)  {
+	box-shadow: rgb(255, 253, 253) 0px 50px 100px -20px, rgb(255, 255, 255) 0px 30px 60px -30px, rgb(246, 249, 251) 0px -2px 6px 0px inset;
 }
 
 .a {
 	transform: rotateY(0deg) translateZ(350px);
-  background: #1a130c;
+	background: #1a130c;
 }
 .b {
 	transform: rotateY(30deg) translateZ(350px);
@@ -390,7 +396,7 @@ span a:focus {
 
 .next, .prev {
 	width: fit-content;
-	color: #7575755e;
+	color: #858585;
 	font-size: 50px;
 	position: relative;
 	padding: 0px 15px;
@@ -399,7 +405,7 @@ span a:focus {
   background: #EBF5F1;
 	border-radius: 50%;
 	border: 1.5px solid #EBF5F1;
-  box-shadow: #0e1e251f 0px 2px 4px 0px, #0e1e2552 0px 2px 16px 0px;
+  box-shadow: #0e1e251f 3px 0px 3px 1px;
 	transition: box-shadow 0.1s, top 0.1s;
 }
 .next:hover, .prev:hover { 
@@ -410,15 +416,33 @@ transition: 0.5s;
 .next:active, .prev:active {
 	box-shadow: 0 1px 0 #999;
 }
-.next { } 
-.prev { }
 
 .contacts h4 {
-	padding: 60px 0px;
+	padding-top: 60px;
 	color: #858e95;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+.contacts p {
+	font-size: 10px;
+	color: #858e95;
+	text-align: center;
+	padding-bottom: 20px;
 }
 
 .contacts ul {
 	list-style: none;
 	display: flex;
+	justify-content: center;
+	padding: 0px;
+}
+
+.contacts li {
+	margin: auto 20px;
+}
+
+.contacts i {
+	color: #4f5050;
+	font-size: 30px;
 }

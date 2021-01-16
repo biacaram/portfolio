@@ -300,8 +300,8 @@ span a:focus {
 
 .langs {
 	margin: 40px auto;
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
 	perspective: 1000px;
 	position: relative;
 }
@@ -318,9 +318,9 @@ span a:focus {
 	display: block;
   position: absolute;
   background: #000;
-  width: 150px;
-  height: 150px;
-  line-height: 120px;
+  width: 100px;
+  height: 100px;
+  line-height: 90px;
   font-size: 5em;
   text-align: center;
   color: #FFF;
@@ -330,27 +330,27 @@ span a:focus {
 
 .a {
 	transform: rotateY(0deg) translateZ(350px);
-  background: #ed1c24;
+  background: #1a130c;
 }
 .b {
 	transform: rotateY(30deg) translateZ(350px);
-  background: #0072bc;
+  background: #e4e4e4;
 }
 .c {
 	transform: rotateY(60deg) translateZ(350px);
-  background: #39b54a;
+  background: #1a130c;
 }
 .d {
 	transform: rotateY(90deg) translateZ(350px);
-  background: #f26522;
+  background: #e4e4e4;
 }
 .e {
   transform: rotateY(120deg) translateZ(350px);
-  background: #630460;
+  background: #1a130c;
 } 
 .f {
 	transform: rotateY(150deg) translateZ(350px);
-  background: #8c6239;
+  background: #e4e4e4;
 }
 
 .g {
@@ -360,7 +360,7 @@ span a:focus {
 
 .h {
 	transform: rotateY(210deg) translateZ(350px);
-  background: #1a130c;
+  background: #e4e4e4;
 }
 
 .i {
@@ -370,7 +370,7 @@ span a:focus {
 
 .j {
 	transform: rotateY(270deg) translateZ(350px);
-  background: #d3d2d2;
+  background: #e4e4e4;
 }
 
 .k {
@@ -380,7 +380,7 @@ span a:focus {
 
 .l {
 	transform: rotateY(330deg) translateZ(350px);
-  background: #1a130c;
+  background: #e4e4e4;
 }
 
 .controls {
@@ -397,11 +397,16 @@ span a:focus {
 	margin: 20px;
   cursor: pointer;
   background: #EBF5F1;
-  border-radius: 5px;
-  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+	border-radius: 5px;
+	border: 1.5px solid #EBF5F1;
+  box-shadow: #0e1e251f 0px 2px 4px 0px, #0e1e2552 0px 2px 16px 0px;
 	transition: box-shadow 0.1s, top 0.1s;
 }
-.next:hover, .prev:hover { color: #757575c5; }
+.next:hover, .prev:hover { 
+	color: #757575c5; 
+	border: 1.5px solid #ed4e6e;
+transition: 0.5s;
+}
 .next:active, .prev:active {
 	box-shadow: 0 1px 0 #999;
 }

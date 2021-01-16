@@ -404,14 +404,13 @@ span a:focus {
   cursor: pointer;
   background: #EBF5F1;
 	border-radius: 50%;
-	border: 1.5px solid #EBF5F1;
+	border: 2px solid #EBF5F1;
   box-shadow: #0e1e251f 3px 0px 3px 1px;
 	transition: box-shadow 0.1s, top 0.1s;
 }
 .next:hover, .prev:hover { 
-	color: #757575c5; 
-	border: 1.5px solid #ed4e6e;
-transition: 0.5s;
+	color: #ed4e6e98;
+	transition: 0.2s;
 }
 .next:active, .prev:active {
 	box-shadow: 0 1px 0 #999;
@@ -445,4 +444,9 @@ transition: 0.5s;
 .contacts i {
 	color: #4f5050;
 	font-size: 30px;
+}
+
+.contacts i:hover {
+	color: #ed4e6e;
+	transition: 0.3;
 }

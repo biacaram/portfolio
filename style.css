@@ -11,6 +11,13 @@ body {
 
 .navbar-brand {
 	font-size: 16px;
+	letter-spacing: 3px;
+}
+
+.navbar-brand::first-letter {
+	background-color:rgba(0, 0, 0, 0.103);
+	padding: 0.5px 2px 0.5px 5px;
+	border-radius: 2px;
 }
 
 .aboutme {
